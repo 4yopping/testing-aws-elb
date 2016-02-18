@@ -1,0 +1,43 @@
+html,
+body,
+.wrapper,
+.instances { height: 100%; }
+
+.wrapper {
+  width: 5000px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.instances { float: left; }
+
+.elb,
+.instance {
+  float: left;
+  width: 250px;
+  height: 100%;
+  color: #555;
+  padding: 10px 20px;
+}
+
+.elb {
+  margin-right: 1px;
+  background-color: #eee;
+  width: 500px;
+}
+.instance {
+  background-color: #eee;
+
+  & + .instance { margin-left: 1px; }
+}
+
+.in-service {
+  color: #fff;
+  background-color: #5cb85c;
+}
+
+.out-of-service {
+  color: #fff;
+  background-color: #d9534f;
+}
