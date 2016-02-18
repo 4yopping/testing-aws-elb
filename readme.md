@@ -1,3 +1,8 @@
+<a href="http://4yopping.com">
+    <img src="http://4yopping.com/4yopping.png" alt="4yopping Logo"
+         title="4yopping Logo" align="right" width="120px" height="125px" />
+</a>
+
 # Testing AWS ELB
 
 ![Screenshot](https://raw.githubusercontent.com/4yopping/testing-aws-elb/master/screenshot.png)
