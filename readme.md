@@ -1,5 +1,7 @@
 # Testing AWS ELB
 
+![Screenshot](https://raw.githubusercontent.com/4yopping/testing-aws-elb/master/screenshot.png)
+
 ## Usage
 
 Create a new store with Qomanda:
